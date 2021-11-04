@@ -187,44 +187,25 @@ function filterByWord(array, string){
 /* 💪💪💪💪💪🧁🍦🍨 STRETCH 🍨🍦🍫💪💪💪💪💪*/ 
 
 /* STRETCH 1: Write a function that returns the average number of words in an array. You should be able to use this function for any array, but can test with originalFlavors.
-
 Use the getAverageWordLength function below to do the following:
   1. Receive the originalFlavors array
   2. Count how many words per item in the array
   3. Return the average number of words per item in the array
-
   For example: getAverageWordLength(originalFlavors) should return a number between 0 and 3.     
 */
 
-// function getAverageWordLength(array){
-//   let emptyArray = [];
-//   let wordCount;
-//   let sum;
-//   for(let i = 0; i < array.length; i++){
-//     wordCount++;
-//     if(array[i].includes(' ')){
+function getAverageWordLength(/*code here*/){
+  /*code here*/
+}
 
-//     }
-//   }
-  
-//   for(let i = 0; i < emptyArray.length; i++){
-//     sum += emptyArray[i];
-//   }
-
-//   return (sum / emptyArray.length);
-// }
-
-// console.log(getAverageWordLength(originalFlavors));
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪💪💪💪
 Baskin Robins now offers new flavors, seasonal flavors, and even regional flavors. Write a function that will randomly select a total of 31 flavors 
 from originalFlavors, currentFlavors, seasonalFlavors, and regionalFlavors and store it in an array called randomFlavors.
-
 Use the getRandomFlavors function and new arrays below to do the following:
   1. Receive the four arrays with all the differnet flavors (originalFlavors is above, the others are below)
   2. Randomly pick flavors from all four arrays
   3. Return a new array called randomFlavors that has a lenght of 31
-
   For example: getRandomFlavors(originalFlavors, newFlavors, seasonalFlavors, regionalFlavors) might return ["Strawberry Cheesecake", "Eggnog,"..."Chocolate"].
 */
 
@@ -334,4 +315,3 @@ module.exports = {
   getAverageWordLength,
   getRandomFlavors
 }
-
